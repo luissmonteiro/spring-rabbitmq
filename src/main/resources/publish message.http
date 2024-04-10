@@ -1,0 +1,13 @@
+POST http://localhost:8082/api/v1/publish
+Content-Type: application/json
+
+{
+  "id": 1,
+  "firstName": "Luis",
+  "lastName": "Monteiro"
+}
+
+###
+
+
+http://localhost:8082/api/v1/publish?message=hello%20world teste
